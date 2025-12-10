@@ -1,0 +1,25 @@
+.recipeBook {
+    padding: 12px;
+    background:#eee;
+    width: 500px;
+    margin: 0 auto;
+}
+.title {
+    background: white;
+    padding:10px;
+    color: #104135
+}
+.recipes {
+    background: white;
+}
+.pizza-dough a {
+    color:red;
+    background:orange;
+}
+.mac-and-cheese a {
+    color:orange;
+    background:rgb(122, 94, 21)
+}
+.bread a {
+    color:#a4a4a4;
+}
