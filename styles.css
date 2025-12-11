@@ -1,25 +1,45 @@
+* {
+    box-sizing: border-box;
+}
 .recipeBook {
     padding: 12px;
     background:#eee;
-    width: 500px;
+    width: 600px;
     margin: 0 auto;
 }
-.title {
+.title, .header, .MacTitle, .BreadTitle, .PizzaTitle, .recipes, .ingredients, .steps, .desc {
     background: white;
-    padding:10px;
-    color: #104135
+    padding: 10px;
+    color: #104135;
+    text-align: center;
 }
-.recipes {
-    background: white;
+img{
+    width: 100%;
+}
+.desc {
+    color: black;
+}
+.recipes, .ingredients, .steps {
+    padding: 1px 0;
+    text-align: left;
+    color: black;
+}
+.steps {
+    margin-top: 12px;
+}
+.PizzaTitle {
+    color:orangered;
 }
 .pizza-dough a {
     color:red;
     background:orange;
 }
-.mac-and-cheese a {
+.MacTitle, .mac-and-cheese {
     color:orange;
-    background:rgb(122, 94, 21)
 }
-.bread a {
+.mac-and-cheese a {
+    background:rgb(122, 94, 21);
+}
+.bread a, .BreadTitle{
     color:#a4a4a4;
 }
