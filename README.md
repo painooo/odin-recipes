@@ -1,3 +1,3 @@
 # odin-recipes
-A basic recipes website written in html
-CSS will be added later on
+A basic recipes for The Odin Project
+** !! Now with CSS !! **
